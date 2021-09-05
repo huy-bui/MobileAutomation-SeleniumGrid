@@ -1,0 +1,26 @@
+{
+  "capabilities": [
+    {
+      "deviceName": "Pixel4_API_29",
+      "version": "10.0",
+      "maxInstances": 3,
+      "platformName": "ANDROID"
+    }
+  ],
+  "configuration": {
+    "cleanUpCycle": 2000,
+    "timeout": 30000,
+    "hub": "http://192.168.1.6:4444/grid/register/",
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url": "http://192.168.1.6:4723/wd/hub/",
+    "host": "192.168.1.6",
+    "port": 4723,
+    "maxSession": 6,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "192.168.1.6",
+    "remoteHost": "http://192.168.1.6:4723",
+    "role": "node"
+  }
+}
